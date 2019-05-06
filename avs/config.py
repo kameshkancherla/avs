@@ -55,8 +55,8 @@ def dueros():
 
 def alexa():
     return {
-        "product_id": "ReSpeaker",
-        "client_id": "amzn1.application-oa2-client.91b0cebd9074412cba1570a5dd03fc6e",
+        "product_id": "rk322x",
+        "client_id": "amzn1.application-oa2-client.03028146ba4a44b5bb31f0b4d0422251",
         "host_url": "avs-alexa-na.amazon.com",
-        "client_secret": "fbd7a0e72953c1dd9a920670cf7f4115f694cd47c32a1513dc12a804c7f804e2"
+        "client_secret": "47e089f9cb92256a55d76060d394328f762654d7c02165cb7f54757374d76219"
     }
