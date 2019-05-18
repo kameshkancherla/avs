@@ -23,7 +23,7 @@ def load(configfile=DEFAULT_CONFIG_FILE):
                 raise RuntimeError('{} should include "{}"'.format(configfile, key))
 
     if ('host_url' not in config) or (not config['host_url']):
-        config['host_url'] = 'avs-alexa-na.amazon.com'
+        config['host_url'] = 'avs-alexa-eu.amazon.com'
 
     if config['host_url'] == 'dueros-h2.baidu.com':
         config['api'] = 'dcs/avs-compatible-v20160207'
@@ -57,6 +57,6 @@ def alexa():
     return {
         "product_id": "rk322x",
         "client_id": "amzn1.application-oa2-client.03028146ba4a44b5bb31f0b4d0422251",
-        "host_url": "avs-alexa-na.amazon.com",
+        "host_url": "avs-alexa-eu.amazon.com",
         "client_secret": "47e089f9cb92256a55d76060d394328f762654d7c02165cb7f54757374d76219"
     }
